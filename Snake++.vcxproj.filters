@@ -14,4 +14,121 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\backButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\ground.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\menuBG.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\mPlayButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\optionButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\pauseStatus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Player.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\playerhead.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\playerhead.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Playerold.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\rock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\sand.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\sPlayButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\testMenu.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\testRec.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\wall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\water.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ColliderComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ECS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KeyboardController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MouseComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SpriteComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StateHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TransformComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
